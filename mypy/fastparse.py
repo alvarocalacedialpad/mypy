@@ -142,7 +142,7 @@ def ast3_parse(
         source,
         filename,
         mode,
-        type_comments=True,  # This works the magic
+        type_comments=False,  # This works the magic
         feature_version=feature_version,
     )
 
